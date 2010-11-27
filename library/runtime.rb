@@ -56,7 +56,7 @@ def _in *args, &block; Runtime.in *args, &block end
 def at  *args, &block; Runtime.at *args, &block end
 
 # WHY, RUBY.. WHY ;_;!?
-alias_method :in_,  :_in
-alias_method :_in_, :_in
+alias :in_  :_in
+alias :_in_ :_in
 
 Runtime.enable unless $NO_RUNTIME and $NO_RUNTIME == true

@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |spec|
   spec.name    = "runtime"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.summary = "Runtime is an event library running in the background of your process, checking every second if there is an event ready to be run at the given time."
 
   spec.author  = "Mikkel Kroman"
