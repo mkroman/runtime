@@ -1,0 +1,19 @@
+#!/usr/bin/gem build
+# encoding: utf-8
+
+Gem::Specification.new do |spec|
+  spec.name    = "runtime"
+  spec.version = "1.0.0"
+  spec.summary = "Runtime is an event library running in the background of your process, checking every second if there is an event ready to be run at the given time."
+
+  spec.author  = "Mikkel Kroman"
+  spec.email   = "mk@maero.dk"
+
+  spec.files = Dir['library/**/*.rb']
+  spec.bindir = "executables"
+  spec.has_rdoc = true
+  spec.require_path = "library"
+  spec.required_ruby_version = ">= 1.9.1"
+end
+
+# vim: set syntax=ruby:
