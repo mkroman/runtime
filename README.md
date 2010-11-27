@@ -26,23 +26,23 @@ Extensions
 ==========
 Runtime provides 4 method extensions to the Fixnum class. Those are
 
-  * seconds
-  * minutes
-  * hours
-  * days
+  * `seconds`
+  * `minutes`
+  * `hours`
+  * `days
 
-*Note: _all methods also has a singularis alias which points to their respective pluralus method (second, minute e.g.)_*
+**Note:** all methods also has a singularis alias which points to their respective pluralus method (`second`, `minute` e.g.)
 
 Examples
 ========
 Raise an event that says "Hello world" in 5 minutes:
 
-    \_in 10.minutes do
+    _in 10.minutes do
       puts "Hello world"
     end
 
 Or raise an event that says "Hello world" in one day:
   
-    \_in 1.day do
+    _in 1.day do
       puts "Hello world"
     end
